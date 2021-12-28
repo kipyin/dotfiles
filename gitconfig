@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Kip Yin
+	email = 28321392+kipyin@users.noreply.github.com
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
