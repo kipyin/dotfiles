@@ -8,6 +8,9 @@
 - link:
     ~/.gitconfig:
     ~/.vimrc:
+    ~/.config/fish/:
+        glob: true
+        path: config/fish/*
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
